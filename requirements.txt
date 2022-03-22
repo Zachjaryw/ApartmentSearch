@@ -1,6 +1,6 @@
 pandas
 streamlit
-nunmpy
+numpy
 dropbox
 json
 io
