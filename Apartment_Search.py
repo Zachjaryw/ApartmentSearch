@@ -24,7 +24,8 @@ init = {"Apartment Name":[],
         "Trash":[],
         "Mantenance":[],
         "Parking":[],
-        "Pets":[],
+        "Pets Friendly":[],
+        "Pets Cost":[]        
         "Other Ammenities":[],
         "Price":[],
         "Ranking":[]}
@@ -42,11 +43,12 @@ laundry = st.slider("Laundry Rating:",0,10,key = 8)
 trash = st.slider("Trash Rating:",0,10,key = 9)
 mantenance = st.slider("Mantenance Rating:",0,10,key = 10)
 parking = st.slider("Parking Rating:",0,10,key = 11)
-pets = st.slider("Pets Rating:",0,10,key = 12)
+pets1 = st.slider("Pets Rating:",0,10,key = 12)
+pets2 = st.slider("Pets Cost:",0,10,key = 18)
 other = st.slider("Other Ammentities Rating:",0,10,key = 13)
 price = st.slider("Price Rating:",0,10,key = 14)
 values = [name,school,mall,safety,internet,kitchen,water,condition,space,laundry,
-          trash,mantenance,parking,pets,other,price]
+          trash,mantenance,parking,pets1,pets2,other,price]
 
 col1,col2 = st.columns(2)
 action = 0
