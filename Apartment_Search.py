@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 from Dropbox_Setup import *
 
-#st.title("Apartment Ranking")
+st.title("Apartment Ranking")
 
 dbx = initializeToken('sl.BEMkL6aH-ohhGYv03y64H0fXNOT-RcjviwNWc04OC7lsRu01xqgDsCtgCKA9zMbgsfvxykg8Fverym8Vo_HO5MPp-trVUNn80Pm1VKA9_IdwpY1gaJQxWIPApbsOcm_x5bVb2WY')
 
