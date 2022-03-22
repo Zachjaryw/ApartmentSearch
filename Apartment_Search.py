@@ -25,7 +25,7 @@ init = {"Apartment Name":[],
         "Mantenance":[],
         "Parking":[],
         "Pets Friendly":[],
-        "Pets Cost":[]        
+        "Pets Cost":[],     
         "Other Ammenities":[],
         "Price":[],
         "Ranking":[]}
@@ -58,7 +58,7 @@ with col1:
 with col2:
     if st.button("See Rankings",key = 17):
         action = 2
-toDBX(dbx,init,filename)
+
 if action == 1:
     if name == "RESET ALL":
         toDBX(dbx,init,filename)
