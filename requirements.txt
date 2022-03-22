@@ -1,0 +1,6 @@
+pandas
+streamlit
+nunmpy
+dropbox
+json
+io
