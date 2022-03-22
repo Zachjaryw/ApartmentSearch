@@ -2,5 +2,4 @@ pandas
 streamlit
 numpy
 dropbox
-json
 io
